@@ -1,0 +1,49 @@
+@import url(base.css);
+@import url(header.css);
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 100vw;
+    background-color: var(--primary-color);
+}
+
+.banner__image {
+    width: 90%;
+}
+
+.banner__text {
+    width: 90%;
+    margin: 25px 0px;
+
+    font-family: var(--secondary-font);
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 5px;
+    color: var(--secondary-color);
+}
+
+.banner__title {
+    width: 90%;
+    margin-bottom: 15px;
+
+    font-family: var(--primary-font);
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 125%;
+    color: var(--secondary-color);
+}
+
+.banner__description {
+    width: 90%;
+    margin-bottom: 25px;
+
+    font-family: var(--secondary-font);
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 125%;
+    color: var(--secondary-color);
+}
